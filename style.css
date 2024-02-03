@@ -537,40 +537,40 @@ p {
         text-align: left;
     }
     /* End About */
-    /* Skills */
-    #skill .skill {
-        flex-direction: column;
-        padding: 100px 0;
-        align-items: center;
-
-        justify-content: center;
-        min-width: 20vh;
+    /* contact */
+#contact .contact {
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    
+    justify-content: center;
+    min-width: 20vh;
     }
-    #skill .skill-items {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin: 0;
+    #contact .contact-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
     }
-    #skill .skill-item {
-        width: 30%;
-        margin: 0;
-        flex-direction: row;
+    #contact .contact-item {
+    width: 30%;
+    margin: 0;
+    flex-d    irection: row;
     }
-    #skill .skill-item .icon {
-        height: 100px;
-        width: 100px;
+    #contact .contact-item .icon {
+    height: 100px;
+    width: 100px;
     }
-    #skill .skill-item .icon img {
-        object-fit: contain;
+    #contact .contact-item .icon img {
+    object-fit: contain;
     }
-    #skill .skill-item .skill-info {
-        width: 100%;
-        text-align: left;
-        padding-left: 20px;
+    #contact .contact-item .contact-info {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
     }
-    /* End skills */
+    /* End contact */
 }
 /* End Media Query For Tablet */
 /* Media Query For Desktop */
